@@ -1,3 +1,5 @@
+document.getElementsByTagName('button')[0].addEventListener('click', refresh);
+
 let p1Score = randomInt(1, 6);
 let p2Score = randomInt(1, 6);
 
@@ -17,12 +19,14 @@ function validateWinner(p1Score, p2Score) {
 
     if (p1Score === p2Score) 
         document.getElementsByTagName('h1')[0].textContent = 'Draw! ☠';
-        
+
     if (p1Score > p2Score) 
         document.getElementsByTagName('h1')[0].textContent = 'Player 1 Wins! 🎉';
 
     if (p2Score > p1Score) 
         document.getElementsByTagName('h1')[0].textContent = 'Player 2 Wins! 🎉';
+}
 
-    
+function refresh() {
+    location.reload();
 }

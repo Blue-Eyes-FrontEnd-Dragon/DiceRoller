@@ -39,4 +39,21 @@ footer {
   display: inline-block;
 }
 
+button {
+  margin-top: 2rem;
+  border: none;
+  text-decoration: none;
+  background-color: #4ECCA3;
+  color: #EEEEEE;
+  font-family: "Lobster", "cursive";
+  border-radius: 15%;
+  font-size: 2rem;
+}
+
+button:hover {
+  color: black;
+  background-color: #40a583;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=main.css.map */
