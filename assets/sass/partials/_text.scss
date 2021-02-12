@@ -3,10 +3,18 @@ h1 {
     font-family: $lobster-cursive;
     text-shadow: 5px 0 $text-shadow;
     color: $main-text;
+    font-size: 8rem;
 }
 
 p {
     font-size: 2rem;
     color: $main-text;
+    font-family: $indie-flower-cursive;
+}
+
+footer {
+    margin-top: 5%;
+    color: $footer;
+    text-align: center;
     font-family: $indie-flower-cursive;
 }
